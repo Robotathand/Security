@@ -1,0 +1,5 @@
+led=gpio(2)
+buzzer=gpio(3)
+button=gpio(21)
+door=gpio(27)
+motion=gpio(4)
