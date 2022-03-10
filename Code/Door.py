@@ -9,7 +9,7 @@ button = Button(27)
 while True:
     button.wait_for_release()
 #    print("Door!")
-    filename = "/home/luqman/Security/Footage/Door/SecurityFootageFrom{0:%c}.h264".format(datetime.now())
+    filename = "../Footage/Door/SecurityFootageFrom{0:%c}.h264".format(datetime.now())
     camera.start_recording(filename)
     sleep(300)
     camera.stop_recording()
