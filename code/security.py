@@ -10,3 +10,4 @@ camera = PiCamera()
 button = Button(27)
 
 while True:
+# to be continued
