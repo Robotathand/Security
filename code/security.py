@@ -1,4 +1,4 @@
-# not yet done
+#  alpha - not yet completed
 from gpiozero import MotionSensor
 from picamera import PiCamera
 from datetime import datetime
@@ -10,4 +10,4 @@ camera = PiCamera()
 button = Button(27)
 
 while True:
-    
+# to be continued
